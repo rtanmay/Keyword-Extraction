@@ -52,11 +52,17 @@ else:
 		rmv.append(temp);
     #Removing the last element-->*stop*
 	rmv.pop();
-keywordfinal=keyword;
-for i in keywordfinal:
-	for j in rmv:
-		if i==j:
-			keywordfinal.remove(i);
+
+#for i in rmv:
+	#print(i);
+
+#keywordfinal=keyword;
+keywordfinal=[];
+for i in keyword:
+	if i not in rmv:
+			keywordfinal.append(i);
+
+
     
 
 #Final list of keywords
