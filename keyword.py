@@ -21,6 +21,6 @@ for i in T:
 		keyword.append(i);
 
 #Printing the keywords
-print("The keywords entered in the text are:");
+print("\nThe keywords entered in the text are:");
 for i in keyword:
 	print(i);
